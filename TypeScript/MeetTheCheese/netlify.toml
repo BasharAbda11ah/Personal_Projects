@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Pages use #/ URLs, so this only catches mistyped paths (it never shadows real files).
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

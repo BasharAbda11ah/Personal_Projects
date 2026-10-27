@@ -1,0 +1,8 @@
+# Keep line endings consistent (LF in the repository) across Windows/macOS/Linux.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.jpg binary
+*.png binary
+*.ico binary
+*.woff binary
+*.woff2 binary
