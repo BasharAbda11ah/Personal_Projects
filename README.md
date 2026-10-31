@@ -9,6 +9,7 @@ This repository holds my personal and course projects. Each folder has its own c
 | Project | What it is | Stack |
 | --- | --- | --- |
 | [Meet The Cheese](TypeScript/MeetTheCheese) | Bilingual English/Arabic menu and WhatsApp ordering site for a three-branch UAE restaurant, built on my own initiative as a demo for the owner. 138 menu items, per-branch cart, QR-code branch links, 34 automated tests. | TypeScript, React, Vite, Tailwind CSS, Vitest |
+| [First Gear](TypeScript/FirstGear) | Unofficial bilingual English/Arabic demo site for a car polish and cleaning shop in Ajman, built on my own initiative. Language switch with RTL layout, interactive paint-swatch picker, booking form that composes a WhatsApp message. Automated tests for content, language switch and booking form. | TypeScript, React, Vite, Vitest |
 | [GameZone Database](SQL/GameZoneDatabase) | Course project: 10-table relational database for an esports lounge, with constraints, 7 analytical queries and 2 maintenance scripts. | SQL, MySQL / MariaDB |
 | [HuntMaster Quest](Java/QuizManager) | JavaFX quiz game with a background timer thread (15 seconds per question), an abstract question class with three subclasses, and a sorted file-based leaderboard. | Java, JavaFX |
 | [Polygon class](Python/Classes) | Python class with private attributes and pytest tests. | Python, pytest |
