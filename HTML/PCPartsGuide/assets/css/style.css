@@ -1,0 +1,177 @@
+/* ----- Reset the browser default spacing ----- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ----- Body: the font and colours used for normal text ----- */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+
+/* ----- All headings use the serif heading font ----- */
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+  font-size: 24px;
+  color: #151A1E;
+  margin: 0 0 12px 0;
+}
+
+h3 {
+  font-size: 19px;
+  color: #1F7A4D;
+  margin: 18px 0 8px 0;
+}
+
+p {
+  margin: 0 0 12px 0;
+}
+
+
+/* ----- Links are styled the same everywhere ----- */
+a {
+  color: #1F7A4D;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #151A1E;
+}
+
+a:hover {
+  color: #151A1E;
+}
+
+
+/* ----- Header: the logo floats left so the name sits beside it.
+         overflow keeps the black bar wrapped around the logo. ----- */
+#site-header {
+  background-color: #151A1E;
+  color: #FFFFFF;
+  padding: 16px 24px;
+  overflow: auto;
+}
+
+#logo {
+  float: left;
+  width: 80px;
+  margin: 0 16px 0 0;
+}
+
+.site-name {
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.tagline {
+  color: #9BE564;
+  font-style: italic;
+  margin: 0;
+}
+
+
+/* ----- Navigation: the list items are floated into a row.
+         overflow keeps the green bar around them. ----- */
+#main-nav {
+  background-color: #1F7A4D;
+  overflow: auto;
+}
+
+#main-nav ul {
+  list-style-type: none;
+}
+
+#main-nav li {
+  float: left;
+  padding: 12px 16px;
+}
+
+#main-nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#main-nav a:visited {
+  color: #FFFFFF;
+}
+
+#main-nav a:hover {
+  color: #9BE564;
+}
+
+
+/* ----- Two columns: the sidebar floats left, the content floats
+         right. overflow makes main hold both of them. ----- */
+main {
+  padding: 24px;
+  overflow: auto;
+}
+
+#sidebar {
+  float: left;
+  width: 28%;
+  padding: 16px;
+  background-color: #F4F6F8;
+  border: 1px solid #DDDDDD;
+}
+
+#content {
+  float: right;
+  width: 70%;
+}
+
+
+/* ----- Home page image: text wraps around it ----- */
+.wrap-image {
+  float: left;
+  width: 280px;
+  margin: 0 18px 10px 0;
+  border: 1px solid #DDDDDD;
+}
+
+
+/* ----- The ordered list of lessons in the sidebar ----- */
+.lesson-list {
+  margin: 0 0 12px 22px;
+}
+
+
+/* ----- Team table on the About page ----- */
+.team-table {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+.team-table th {
+  background-color: #151A1E;
+  color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  padding: 8px;
+  text-align: left;
+}
+
+.team-table td {
+  border: 1px solid #DDDDDD;
+  padding: 8px;
+  text-align: left;
+}
+
+
+/* ----- Footer sits under the two columns ----- */
+#site-footer {
+  background-color: #151A1E;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 16px;
+}

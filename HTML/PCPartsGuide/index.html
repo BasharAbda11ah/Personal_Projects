@@ -1,0 +1,86 @@
+<!DOCTYPE html>                  
+<html lang="en">                                        
+<head>                                                   <!-- infomation about the page, not shown on screen -->
+  <meta charset="utf-8">                                 <!-- character set, lets symbols display properly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">   <!-- makes the page fit phone screens -->
+  <meta name="description" content="PC Parts Guide is a tutorial for beginners that explains the main parts inside a computer and what each one does.">   <!-- the text Google shows under the link -->
+  <meta name="keywords" content="pc parts, computer hardware, cpu, ram, storage, ssd, hdd, input devices, output devices">   <!-- words that describe the page -->
+  <meta name="author" content="Team 3: Adam, Bashar, Suraj, Shadan">      
+  <title>PC Parts Guide | Home</title>                   <!-- the text in the browser tab -->
+  <link rel="stylesheet" href="assets/css/style.css">    <!-- connects this page to our stylesheet -->
+</head>
+
+<body>                                                   
+
+<!-- Header: logo, site name and tagline, which is the exact same on every page -->
+  <header id="site-header">                              <!-- id is a name so the CSS can style just this part -->
+    <img id="logo" src="assets/media/logo.png" alt="PC Parts Guide logo">   <!-- src is the path to the image, alt is text shown if it fails to load -->
+    <h1 class="site-name">PC Parts Guide</h1>            <!-- class is a name that can be reused on other tags -->
+    <p class="tagline">Know your parts</p>
+  </header>
+
+<!-- Navigation: horizontal menu made from an unordered list -->
+  <nav id="main-nav">                                    <!-- id is a name so the CSS can style just this menu -->
+    <ul>                                                 
+      <li><a href="index.html">Home</a></li>             <!-- href is the file this link opens -->
+      <li><a href="about.html">About</a></li>
+      <li><a href="lesson_adam.html">CPU and RAM</a></li>
+      <li><a href="lesson_bashar.html">Storage</a></li>
+      <li><a href="lesson_suraj.html">Input and Output</a></li>
+      <li><a href="lesson_shadan.html">Putting It Together</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="references.html">References</a></li>
+    </ul>
+  </nav>
+
+<!-- Main: holds the sidebar on the left and the content on the right -->
+  <main>
+
+<!-- Sidebar: numbered list of the four lessons -->
+    <aside id="sidebar">                                 <!-- aside is the side column next to the main text -->
+      <h2>Lessons</h2>
+      <ol class="lesson-list">                           <!-- ol is an ordered list, shows numbers instead of bullets -->
+        <li><a href="lesson_adam.html">CPU and RAM</a></li>
+        <li><a href="lesson_bashar.html">Storage: HDD vs SSD</a></li>
+        <li><a href="lesson_suraj.html">Input and Output Devices</a></li>
+        <li><a href="lesson_shadan.html">Putting It Together</a></li>
+      </ol>
+      <p>Work through the lessons in order, then try the
+         <a href="quiz.html">quiz</a>.</p>
+    </aside>
+
+<!-- Content: the intro text with the image floated so the text wraps around it -->
+    <section id="content">                               <!-- section is the main block of page content -->
+      <h2>What this tutorial covers</h2>
+
+      <img class="wrap-image" src="assets/media/pc-parts.jpg"
+           alt="The main components of a desktop computer">   <!-- class is used here so the CSS can float it -->
+
+      <p>Every Computer, no matter where it is, is built from many similar working 
+         parts that work together. This guide takesthe cover off the device and talks
+          and walks you through parts one by one, in simple language for anyone to understand.</p>
+
+      <p>The guide starts with the processor and memory, the two
+         parts that decide how quickly a machine can think. Then you will take a
+         look at storage system and the difference an SSD makes, then at the
+         input and output devices that connect you to the machine. The last lesson
+         puts everything you have together and  how to read a specification sheet.</p>
+
+      <p>It is written for students, first time buyers of hardware and anyone.</p>
+
+<!-- Short teaser that links over to the about page -->
+      <h3>About the team</h3>
+      <p>PC Parts Guide was built by four students in ISTE 140 at RIT Dubai. Each
+         member wrote one lesson. Read more on the
+         <a href="about.html">about page</a>.</p>
+    </section>
+
+  </main>
+
+<!-- Footer: team number, the year and the copyright symbol -->
+  <footer id="site-footer">
+    <p>Team 3 &copy; 2026 PC Parts Guide</p>              
+  </footer>
+
+</body>
+</html>
