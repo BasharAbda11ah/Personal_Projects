@@ -86,7 +86,7 @@ These are decisions for the restaurant owner (and you). None has been done:
 5. **Hosting account**: which provider, created in whose name, and any cost (free plans are normally enough).
 6. **Branch details not yet supplied**: map links and Kalba's street address or landmark. They stay hidden until confirmed. Opening hours were taken from each branch's Google listing; ask the owner to confirm them.
 7. **Whether to add the Ras Al Khaimah branch** mentioned on the printed menu.
-8. **Price and terms**: see `docs/PROPOSAL_TEMPLATE.md`. Nothing has been agreed with the restaurant.
+8. **Price and terms**: agreed separately with the restaurant. Nothing has been agreed yet.
 9. **Any analytics** (e.g. visitor statistics): none is installed. Adding one would need the owner's agreement and an updated privacy notice.
 
 ## Environment variables

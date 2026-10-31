@@ -188,5 +188,4 @@ are always read from `menu.ts`), and `mtc.lang.v1` (language). Nothing is sent t
 ## Further documents
 - [docs/CLIENT_HANDOVER.md](docs/CLIENT_HANDOVER.md): plain-language overview for the restaurant
 - [docs/MENU_CONFIRMATION.md](docs/MENU_CONFIRMATION.md): items and details the restaurant needs to confirm
-- [docs/PROPOSAL_TEMPLATE.md](docs/PROPOSAL_TEMPLATE.md): optional fixed-price proposal template
 - [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md): hosting, domain and launch checklist
